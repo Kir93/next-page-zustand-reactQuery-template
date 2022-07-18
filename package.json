@@ -1,6 +1,7 @@
 {
   "name": "next-template",
   "version": "0.0.1",
+  "author": "Kir93",
   "scripts": {
     "dev": "next",
     "build": "cross-env NODE_ENV=production next build",
