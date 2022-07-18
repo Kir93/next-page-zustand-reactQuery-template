@@ -1,0 +1,4 @@
+/cypress/**/*.*
+next-env.d.ts
+*.js
+theme.d.ts
