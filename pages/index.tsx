@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import useStore from '@reducers/index';
+import useStore from '@reducers';
 
 import CommonButton from '@atoms/CommonButton';
 import CustomColorBar from '@atoms/CustomColorBar/CustomColorBar';
