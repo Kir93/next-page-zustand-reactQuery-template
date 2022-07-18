@@ -3,8 +3,8 @@
 ## Quick start
 
 ```
-https://github.com/tirrilee-team02/tirrilee-next use this template and make project
-git clone https://github.com/tirrilee-team02/{PROJECT_NAME}.git
+https://github.com/Kir93/next-template.git use this template and make project
+git clone https://github.com/Kir93/{PROJECT_NAME}.git
 ```
 
 1. styles folder theme.ts, antd.less theme changed
