@@ -1,9 +1,9 @@
-# Next Template
+# Next Zustand React-Query Template
 
 ## Quick start
 
 ```
-https://github.com/Kir93/next-template.git use this template and make project
+https://github.com/Kir93/next-zustand-reactQuery-template.git use this template and make project
 git clone https://github.com/Kir93/{PROJECT_NAME}.git
 ```
 
@@ -35,3 +35,4 @@ Important library version history
 | styled-components | v5.3.5  |
 | antd              | v4.21.6 |
 | zustand           | v4.0.0  |
+| react-query       | v3.39.1 |
