@@ -2,6 +2,7 @@
   "name": "next-zustand-reactquery-template",
   "version": "0.0.1",
   "author": "Kir93",
+  "license": "MIT",
   "scripts": {
     "dev": "next",
     "build": "cross-env NODE_ENV=production next build",
