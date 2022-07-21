@@ -18,11 +18,11 @@ git clone https://github.com/Kir93/{PROJECT_NAME}.git
 
 NextJS Simple Template
 
-FrameWork : NextJS
-Styling : Styled Components, Antd Theme
-Store : Zustand
-API : React Query
-Test : Cypress
+- FrameWork : NextJS
+- Styling : Styled Components, Antd Theme
+- Store : Zustand
+- API : React Query
+- Test : Cypress
 
 ## Package Version
 
