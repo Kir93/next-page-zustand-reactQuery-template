@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
+  display: flex;
   min-width: 414px;
   min-height: 100vh;
   padding: 0 21px;
@@ -12,8 +13,8 @@ const Container = styled.div`
     padding: 0 22px;
   }
 
-  @media screen and (max-width: 1200px) {
-    min-width: 1200px;
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
   }
 `;
 

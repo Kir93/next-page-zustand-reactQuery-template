@@ -9,9 +9,6 @@ module.exports = withBundleAnalyzer({
   },
   experimental: {
     modularizeImports: {
-      antd: {
-        transform: 'antd/lib/{{member}}',
-      },
       lodash: {
         transform: 'lodash/{{member}}',
       },
