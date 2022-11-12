@@ -4,6 +4,7 @@ import '@styles/global.css';
 import React from 'react';
 import Head from 'next/head';
 import { AppProps } from 'next/app';
+import { Noto_Sans_KR } from '@next/font/google';
 import { ThemeProvider } from 'styled-components';
 import { ReactQueryDevtools } from 'react-query/devtools';
 import { QueryClient, QueryClientProvider } from 'react-query';
@@ -20,6 +21,8 @@ const client = new QueryClient({
   },
 });
 
+const notoSans = Noto_Sans_KR({ weight: '400', subsets: ['korean'] });
+
 const App: React.FC<AppProps> = ({ Component, pageProps }) => (
   <QueryClientProvider client={client}>
     {process.env.NODE_ENV !== 'production' ? <ReactQueryDevtools initialIsOpen={false} /> : null}
@@ -29,7 +32,9 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => (
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <AppLayout>
-        <Component {...pageProps} />
+        <main className={notoSans.className}>
+          <Component {...pageProps} />
+        </main>
       </AppLayout>
     </ThemeProvider>
   </QueryClientProvider>
