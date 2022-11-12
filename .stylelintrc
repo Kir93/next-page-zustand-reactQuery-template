@@ -1,5 +1,5 @@
 {
-  "extends": ["stylelint-config-standard", "stylelint-config-recess-order"],
+  "extends": ["stylelint-config-recess-order"],
   "customSyntax": "postcss-jsx",
   "overrides": [
     {
