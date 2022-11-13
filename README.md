@@ -30,9 +30,9 @@ Important library version history
 
 | Name              | Version |
 | :---------------- | :------ |
-| react             | v17.0.2 |
-| next              | v12.2.2 |
-| styled-components | v5.3.5  |
-| antd              | v4.21.6 |
-| zustand           | v4.0.0  |
-| react-query       | v3.39.1 |
+| react             | v18.2.0 |
+| next              | v13.0.3 |
+| styled-components | v5.3.6  |
+| antd              | v4.24.1 |
+| zustand           | v4.1.4  |
+| react-query       | v3.39.2 |
