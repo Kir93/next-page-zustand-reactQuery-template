@@ -8,8 +8,8 @@ git clone https://github.com/Kir93/{PROJECT_NAME}.git
 ```
 
 1. npm install
-2. npm run dev
-3. styles folder theme changed
+2. styles folder theme changed
+3. npm run dev
 
 ---
 
