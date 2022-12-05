@@ -1,4 +1,3 @@
-import '@styles/antd.css';
 import '@styles/global.css';
 
 import React from 'react';
