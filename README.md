@@ -34,4 +34,4 @@ Important library version history
 | styled-components | v5.3.6  |
 | antd              | v5.0.3  |
 | zustand           | v4.1.4  |
-| react-query       | v4.19.0 |
+| react-query       | v4.19.1 |
