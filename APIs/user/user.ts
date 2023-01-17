@@ -1,4 +1,4 @@
-import { QueryOptions, useMutation, useQuery } from 'react-query';
+import { QueryOptions, useMutation, useQuery } from '@tanstack/react-query';
 
 import { fetch } from '@configs/axios';
 import { IUser } from './user.types';
