@@ -7,9 +7,9 @@ https://github.com/Kir93/next-zustand-reactQuery-template.git use this template 
 git clone https://github.com/Kir93/{PROJECT_NAME}.git
 ```
 
-1. npm install
+1. npm install || yarn
 2. styles folder theme changed
-3. npm run dev
+3. npm run dev || yarn dev
 
 ---
 
