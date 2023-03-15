@@ -3,7 +3,7 @@ import '@styles/global.css';
 import React from 'react';
 import Head from 'next/head';
 import { AppProps } from 'next/app';
-import { Noto_Sans_KR } from '@next/font/google';
+import { Noto_Sans_KR } from 'next/font/google';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
