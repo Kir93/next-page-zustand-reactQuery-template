@@ -1,4 +1,4 @@
-# Next Zustand React-Query Template
+# NextJS Zustand React Query Template
 
 ## Quick start
 
@@ -10,8 +10,6 @@ git clone https://github.com/Kir93/{PROJECT_NAME}.git
 1. Install packages - npm install || yarn
 2. Changed Theme - styles folder theme changed
 3. Running Project - npm run dev || yarn dev
-
----
 
 ## Repository short explanation
 
