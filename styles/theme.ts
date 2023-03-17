@@ -1,7 +1,6 @@
 import { DefaultTheme } from 'styled-components';
 
 const theme: DefaultTheme = {
-  // 가변 값
   primaryVariant: '#0654e2',
   primary: '#226bef',
   primary900: '#3779f0',
@@ -29,7 +28,6 @@ const theme: DefaultTheme = {
   baseFontColor: '#000',
   primaryButtonTextColor: '#fff',
 
-  // 고정 값
   black: '#000',
   gray9: '#3b3f4a',
   gray8: '#5a5e6a',
