@@ -1,8 +1,8 @@
 import Router from 'next/router';
 
-const onRouteBack = (path = '/') => {
+const onBack = (path = '/') => {
   if (window.history.length <= 2) return Router.replace(path);
   return Router.back();
 };
 
-export default onRouteBack;
+export default onBack;
