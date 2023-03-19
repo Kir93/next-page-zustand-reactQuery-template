@@ -1,6 +1,7 @@
-import { DefaultTheme } from 'styled-components';
+import { notoSans } from '@configs/bigContents';
+import { DefaultTheme, createGlobalStyle } from 'styled-components';
 
-const theme: DefaultTheme = {
+export const theme: DefaultTheme = {
   primaryVariant: '#0654e2',
   primary: '#226bef',
   primary900: '#3779f0',
@@ -44,4 +45,8 @@ const theme: DefaultTheme = {
   success: '#2fb916',
 };
 
-export default theme;
+export const GlobalFontStyle = createGlobalStyle`
+  * {
+    font-family: ${notoSans.style.fontFamily};
+  }
+`;
