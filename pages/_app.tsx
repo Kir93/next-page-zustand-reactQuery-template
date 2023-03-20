@@ -21,11 +21,11 @@ const client = new QueryClient({
 
 const App: React.FC<AppProps> = ({ Component, pageProps }) => (
   <QueryClientProvider client={client}>
-    {process.env.NODE_ENV !== 'production' ? <ReactQueryDevtools initialIsOpen={false} /> : null}
+    <ReactQueryDevtools initialIsOpen={false} />
     <GlobalFontStyle />
     <ThemeProvider theme={theme}>
       <Head>
-        <title>Next Template</title>
+        <title>Next Zustand React-Query Template</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <AppLayout>
