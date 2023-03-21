@@ -6,7 +6,7 @@ import CommonButton from '@atoms/CommonButton';
 import CustomColorBar from '@atoms/CustomColorBar/CustomColorBar';
 
 import CommonBar from '@components/Common/CommonBar';
-import DefaultComponents from '@components/DefaultComponents/DefaultComponents';
+import { HomeButtonSection, HS } from '@components/Home';
 
 const Home: FC = () => {
   const me = useStore((state) => state.me);
@@ -14,7 +14,8 @@ const Home: FC = () => {
   const logout = useStore((state) => state.logout);
   return (
     <>
-      <DefaultComponents />
+      <HomeButtonSection />
+      <HS.Text>Home Style!</HS.Text>
       <CommonBar />
       <CustomColorBar color="#ff9595" />
       <CommonButton type="primary" onClick={me === null ? login : logout}>
