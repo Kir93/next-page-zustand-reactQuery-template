@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Container = styled.div`
+export const Container = styled.div`
   display: flex;
   min-width: 414px;
   min-height: 100vh;
@@ -17,9 +17,3 @@ const Container = styled.div`
     max-width: 1200px;
   }
 `;
-
-const L = {
-  Container,
-};
-
-export default L;
