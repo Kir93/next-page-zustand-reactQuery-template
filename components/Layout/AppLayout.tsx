@@ -5,6 +5,10 @@ interface IProps {
   children: React.ReactElement;
 }
 
-const AppLayout: React.FC<IProps> = ({ children }) => <LS.Container>{children}</LS.Container>;
+const AppLayout: React.FC<IProps> = ({ children }) => (
+  <LS.Container>
+    <main>{children}</main>
+  </LS.Container>
+);
 
 export default AppLayout;

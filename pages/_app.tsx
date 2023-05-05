@@ -29,9 +29,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => (
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <AppLayout>
-        <main>
-          <Component {...pageProps} />
-        </main>
+        <Component {...pageProps} />
       </AppLayout>
     </ThemeProvider>
   </QueryClientProvider>
