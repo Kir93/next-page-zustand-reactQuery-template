@@ -25,7 +25,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => (
     <GlobalFontStyle />
     <ThemeProvider theme={theme}>
       <Head>
-        <title>Next Zustand React-query Template</title>
+        <title>Next Zustand React Query Template</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <AppLayout>
