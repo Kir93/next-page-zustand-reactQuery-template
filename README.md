@@ -1,4 +1,4 @@
-# NextJS Zustand React Query Template
+# Next Zustand React Query Template
 
 ## Quick start
 
