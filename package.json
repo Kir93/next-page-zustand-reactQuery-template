@@ -54,7 +54,7 @@
     "cypress": "^12.16.0",
     "eslint": "^8.43.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
-    "eslint-config-next": "^13.4.5",
+    "eslint-config-next": "^13.4.8",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
