@@ -38,7 +38,7 @@
     "react-dom": "^18.2.0",
     "react-use": "^17.4.0",
     "styled-components": "^6.0.5",
-    "zustand": "^4.3.8"
+    "zustand": "^4.4.0"
   },
   "devDependencies": {
     "@cypress/react": "^7.0.3",
