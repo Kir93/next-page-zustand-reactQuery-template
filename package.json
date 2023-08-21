@@ -25,7 +25,7 @@
     "not ie <= 11"
   ],
   "dependencies": {
-    "@tanstack/react-query": "^4.29.5",
+    "@tanstack/react-query": "^4.33.0",
     "@tanstack/react-query-devtools": "^4.32.6",
     "antd": "^5.4.6",
     "axios": "^1.4.0",
