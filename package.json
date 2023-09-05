@@ -41,7 +41,7 @@
     "zustand": "^4.4.1"
   },
   "devDependencies": {
-    "@cypress/react": "^7.0.3",
+    "@cypress/react": "^8.0.0",
     "@cypress/webpack-dev-server": "^3.5.2",
     "@next/bundle-analyzer": "^13.4.19",
     "@testing-library/cypress": "^9.0.0",
