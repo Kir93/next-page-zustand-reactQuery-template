@@ -27,7 +27,7 @@
   "dependencies": {
     "@tanstack/react-query": "^4.36.1",
     "@tanstack/react-query-devtools": "^4.36.1",
-    "antd": "^5.10.3",
+    "antd": "^5.11.5",
     "axios": "^1.6.2",
     "dayjs": "^1.11.10",
     "fast-deep-equal": "^3.1.3",
