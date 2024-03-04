@@ -19,7 +19,6 @@ NextJS Simple Template
 - Styling : Styled Components, Antd Theme
 - Store : Zustand
 - API : React Query
-- Test : Cypress
 
 ## Package Version
 
