@@ -45,6 +45,15 @@ export const theme: DefaultTheme = {
   success: '#2fb916',
 };
 
+export const antdTheme = {
+  token: {
+    colorPrimary: '#008000',
+    colorError: '#B6C0AE',
+    colorSuccess: '#85B95C',
+    fontSize: 16,
+  },
+};
+
 export const GlobalFontStyle = createGlobalStyle`
   * {
     font-family: ${notoSans.style.fontFamily};

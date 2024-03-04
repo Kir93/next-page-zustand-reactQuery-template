@@ -4,22 +4,19 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer({
   swcMinify: true,
-  compiler: {
-    styledComponents: true,
-  },
-  experimental: {
-    modularizeImports: {
-      lodash: {
-        transform: 'lodash/{{member}}',
-      },
-    },
-  },
+  transpilePackages: ['antd'],
   eslint: {
     ignoreDuringBuilds: true,
+  },
+  compiler: {
+    styledComponents: true,
   },
   images: {
     minimumCacheTTL: 31536000,
     formats: ['image/avif', 'image/webp'],
+  },
+  experimental: {
+    optimizePackageImports: ['lodash'],
   },
 
   webpack(config) {

@@ -7,9 +7,10 @@ import { ThemeProvider } from 'styled-components';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
-import { theme, GlobalFontStyle } from '@styles/theme';
+import { theme, GlobalFontStyle, antdTheme } from '@styles/theme';
 
 import AppLayout from '@components/Layout/AppLayout';
+import { ConfigProvider } from 'antd';
 
 const client = new QueryClient({
   defaultOptions: {
@@ -24,13 +25,14 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => (
     <ReactQueryDevtools initialIsOpen={false} />
     <GlobalFontStyle />
     <ThemeProvider theme={theme}>
-      <Head>
-        <title>Next Zustand React Query Template</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
-      <AppLayout>
-        <Component {...pageProps} />
-      </AppLayout>
+      <ConfigProvider theme={antdTheme}>
+        <Head>
+          <title>Next Zustand React Query Template</title>
+        </Head>
+        <AppLayout>
+          <Component {...pageProps} />
+        </AppLayout>
+      </ConfigProvider>
     </ThemeProvider>
   </QueryClientProvider>
 );
