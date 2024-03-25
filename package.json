@@ -40,7 +40,7 @@
     "zustand": "^4.5.2"
   },
   "devDependencies": {
-    "@next/bundle-analyzer": "^14.1.1",
+    "@next/bundle-analyzer": "^14.1.4",
     "@types/lodash": "^4.14.202",
     "@types/node": "20.11.25",
     "@types/react": "^18.2.65",
