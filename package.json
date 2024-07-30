@@ -65,7 +65,7 @@
     "stylelint": "^16.7.0",
     "stylelint-config-recess-order": "^5.0.1",
     "stylelint-config-standard": "^36.0.1",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.4"
   },
   "lint-staged": {
     "**/*.{tsx,ts,jsx,js}": [
