@@ -58,7 +58,7 @@
     "eslint-plugin-react": "^7.35.0",
     "husky": "^9.1.4",
     "lint-staged": "^15.2.7",
-    "postcss": "^8.4.40",
+    "postcss": "^8.4.41",
     "postcss-jsx": "^0.36.4",
     "postcss-syntax": "^0.36.2",
     "prettier": "^3.3.3",
