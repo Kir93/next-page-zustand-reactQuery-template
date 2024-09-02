@@ -1,61 +1,50 @@
-import { notoSans } from '@configs/bigContents';
-import { DefaultTheme, createGlobalStyle } from 'styled-components';
+import { extendTheme } from '@chakra-ui/react';
 
-export const theme: DefaultTheme = {
-  primaryVariant: '#0654e2',
-  primary: '#226bef',
-  primary900: '#3779f0',
-  primary800: '#4e88f2',
-  primary700: '#6397f4',
-  primary600: '#7aa6f5',
-  primary500: '#90b4f7',
-  primary400: '#a6c4f9',
-  primary300: '#bcd2fa',
-  primary200: '#d2e1fc',
-  primary100: '#e8f0fe',
-  secondaryVariant: '#9e96ff',
-  secondary: '#b296ff',
-  secondary900: '#b9a0ff',
-  secondary800: '#c1abff',
-  secondary600: '#d1c0ff',
-  secondary500: '#d8caff',
-  secondary700: '#c9b5ff',
-  secondary400: '#e0d5ff',
-  secondary200: '#f0eaff',
-  secondary300: '#e8dfff',
-  secondary100: '#f7f4ff',
-  background: '#f9fafc',
-  borderRadiusBase: '2px',
-  baseFontColor: '#000',
-  primaryButtonTextColor: '#fff',
-
-  black: '#000',
-  gray9: '#3b3f4a',
-  gray8: '#5a5e6a',
-  gray7: '#7f828c',
-  gray6: '#9da0a8',
-  gray5: '#bec1c7',
-  gray4: '#d5d8dc',
-  gray3: '#e4e6ea',
-  gray2: '#eff1f4',
-  gray1: '#f9fafc',
-  white: '#fff',
-  caution: '#f9a825',
-  error: '#e03028',
-  success: '#2fb916',
-};
-
-export const antdTheme = {
-  token: {
-    colorPrimary: '#008000',
-    colorError: '#B6C0AE',
-    colorSuccess: '#85B95C',
-    fontSize: 16,
+export const theme = extendTheme({
+  fonts: {
+    heading: 'var(--font-noto-sans)',
+    body: 'var(--font-noto-sans)'
   },
-};
-
-export const GlobalFontStyle = createGlobalStyle`
-  * {
-    font-family: ${notoSans.style.fontFamily};
-  }
-`;
+  colors: {
+    primary: {
+      900: '#226bef',
+      800: '#3779f0',
+      700: '#4e88f2',
+      600: '#6397f4',
+      500: '#7aa6f5',
+      400: '#90b4f7',
+      300: '#a6c4f9',
+      200: '#bcd2fa',
+      100: '#d2e1fc',
+      50: '#e8f0fe'
+    },
+    secondary: {
+      900: '#b296ff',
+      800: '#b9a0ff',
+      700: '#c1abff',
+      600: '#d1c0ff',
+      500: '#d8caff',
+      400: '#c9b5ff',
+      300: '#e0d5ff',
+      200: '#f0eaff',
+      100: '#e8dfff',
+      50: '#f7f4ff'
+    },
+    warning: '#e03028',
+    success: '#2fb916',
+    black: '#000',
+    white: '#fff',
+    gray: {
+      900: '#3b3f4a',
+      800: '#5a5e6a',
+      700: '#7f828c',
+      600: '#9da0a8',
+      500: '#bec1c7',
+      400: '#d5d8dc',
+      300: '#e4e6ea',
+      200: '#eff1f4',
+      100: '#f9fafc'
+    }
+  },
+  backgroundColor: '#f9fafc'
+});

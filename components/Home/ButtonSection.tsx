@@ -1,7 +1,5 @@
-import React, { FC, memo, useCallback, useState } from 'react';
-import equal from 'fast-deep-equal';
-import { Button } from 'antd';
-import { HS } from '.';
+import React, { FC, useCallback, useState } from 'react';
+import { Button, Text } from '@chakra-ui/react';
 
 interface IProps {
   hello?: boolean;
@@ -12,12 +10,12 @@ const ButtonSection: FC<IProps> = ({ hello }) => {
   const onClickTest = useCallback(() => setTest(!test), [test]);
   return (
     <>
-      <HS.Text>컴포넌트의 경우 state 존재{test && !hello ? '유무로' : ''}</HS.Text>
-      <Button onClick={onClickTest}>
-        <HS.Text>Test</HS.Text>
+      <Text fontSize="lg">컴포넌트의 경우 state 존재{test && !hello ? '유무로' : ''}</Text>
+      <Button colorScheme="primary" onClick={onClickTest}>
+        Test
       </Button>
     </>
   );
 };
 
-export default memo(ButtonSection, equal);
+export default ButtonSection;

@@ -2,11 +2,11 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "sourceMap": true,
-    "lib": ["ESNext", "DOM"],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "jsx": "preserve",
     "module": "esnext",
-    "moduleResolution": "Node",
-    "target": "es6",
+    "moduleResolution": "bundler",
+    "target": "es5",
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -41,6 +41,11 @@
     },
     "incremental": true
   },
-  "exclude": ["node_modules"],
-  "include": ["**/*.ts", "**/*.tsx", "next.config.js", "sitemap.config.js"]
+  "plugins": [
+    {
+      "name": "next"
+    }
+  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }

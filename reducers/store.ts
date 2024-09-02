@@ -1,4 +1,4 @@
-import create from 'zustand';
+import { create } from 'zustand';
 import { devtools } from 'zustand/middleware';
 
 interface IStore {
@@ -11,8 +11,8 @@ const useStore = create<IStore>()(
   devtools((set) => ({
     me: null,
     login: () => set((state) => ({ me: { ...state.me, id: 1 } })),
-    logout: () => set(() => ({ me: null })),
-  })),
+    logout: () => set(() => ({ me: null }))
+  }))
 );
 
 export default useStore;

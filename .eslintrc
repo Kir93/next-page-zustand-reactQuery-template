@@ -13,16 +13,9 @@
     "node": true,
     "es6": true
   },
-  "extends": [
-    "next",
-    "airbnb-typescript",
-    "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "prettier"
-  ],
-  "plugins": ["@typescript-eslint", "import", "jsx-a11y", "prettier"],
+  "extends": ["next/core-web-vitals", "prettier"],
+  "plugins": ["import", "prettier"],
   "rules": {
-    "@typescript-eslint/no-explicit-any": 2,
     "jsx-a11y/label-has-associated-control": "off",
     "jsx-a11y/anchor-is-valid": "off",
     "react/prop-types": "off",

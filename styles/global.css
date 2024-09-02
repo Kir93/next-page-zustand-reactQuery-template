@@ -20,15 +20,9 @@
   text-size-adjust: 100%;
 }
 
-html {
-  font-size: 6.25%;
-}
-
 html,
 body {
   height: 100%;
-  font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, system-ui, Roboto,
-    'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif !important;
 }
 
 img,

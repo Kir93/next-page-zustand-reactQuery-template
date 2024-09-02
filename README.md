@@ -1,9 +1,9 @@
-# Next Zustand React Query Template
+# Next Page Zustand React Query Template
 
 ## Quick start
 
 ```zsh
-https://github.com/Kir93/next-zustand-reactQuery-template.git use this template and make project
+https://github.com/Kir93/next-page-zustand-reactQuery-template.git use this template and make project
 git clone https://github.com/Kir93/{PROJECT_NAME}.git
 ```
 
@@ -16,7 +16,7 @@ git clone https://github.com/Kir93/{PROJECT_NAME}.git
 NextJS Simple Template
 
 - FrameWork : NextJS
-- Styling : Styled Components, Antd Theme
+- Styling : ChakraUI
 - Store : Zustand
 - API : React Query
 
@@ -24,11 +24,10 @@ NextJS Simple Template
 
 Important library version history
 
-| Name              | Version |
-| :---------------- | :------ |
-| react             | v18.2.0 |
-| next              | v13.5.6 |
-| styled-components | v6.1.8  |
-| antd              | v5.14.1  |
-| zustand           | v4.5.1  |
-| react-query       | v4.36.1 |
+| Name        | Version |
+| :---------- | :------ |
+| react       | v18.3.1 |
+| next        | v14.2.5 |
+| chakra-ui   | v2.8.2  |
+| zustand     | v4.5.1  |
+| react-query | v4.36.1 |
