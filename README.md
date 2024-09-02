@@ -13,7 +13,7 @@ git clone https://github.com/Kir93/{PROJECT_NAME}.git
 
 ## Repository short explanation
 
-NextJS Simple Template
+NextJS Page Route Simple Template
 
 - FrameWork : NextJS
 - Styling : ChakraUI
