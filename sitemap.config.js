@@ -7,10 +7,10 @@ module.exports = {
     policies: [
       {
         userAgent: '*',
-        disallow: ['/404'],
+        disallow: ['/404']
       },
-      { userAgent: '*', allow: '/' },
+      { userAgent: '*', allow: '/' }
     ],
-    additionalSitemaps: [`${siteUrl}server-sitemap.xml`],
-  },
+    additionalSitemaps: [`${siteUrl}server-sitemap.xml`]
+  }
 };
