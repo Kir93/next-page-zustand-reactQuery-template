@@ -2,7 +2,7 @@ import React from 'react';
 import { Head, Html, Main, NextScript } from 'next/document';
 
 const MyDocument = () => (
-  <Html lang="en">
+  <Html lang="ko">
     <Head />
     <body>
       <Main />
