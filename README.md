@@ -29,5 +29,5 @@ Important library version history
 | react       | v18.3.1 |
 | next        | v14.2.5 |
 | chakra-ui   | v2.8.2  |
-| zustand     | v4.5.1  |
-| react-query | v4.36.1 |
+| zustand     | v4.5.5  |
+| react-query | v5.53.3 |
