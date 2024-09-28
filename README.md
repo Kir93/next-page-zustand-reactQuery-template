@@ -24,10 +24,10 @@ NextJS Page Route Simple Template
 
 Important library version history
 
-| Name        | Version |
-| :---------- | :------ |
-| react       | v18.3.1 |
-| next        | v14.2.5 |
-| chakra-ui   | v2.8.2  |
-| zustand     | v4.5.5  |
-| react-query | v5.53.3 |
+| Name        | Version  |
+| :---------- | :------- |
+| react       | v18.3.1  |
+| next        | v14.2.13 |
+| chakra-ui   | v2.8.2   |
+| zustand     | v4.5.5   |
+| react-query | v5.56.2  |
