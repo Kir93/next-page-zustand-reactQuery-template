@@ -5,7 +5,7 @@ import { TPostAPI } from '.';
 
 export const baseUrl = '/api/post';
 
-export const useGetPosts = (options: Omit<QueryOptions, 'queryKey' | 'queryFn'>) => {
+export const useGetPosts = (options?: Omit<QueryOptions, 'queryKey' | 'queryFn'>) => {
   const queryKey = `${baseUrl}/posts`;
   const queryFn = async () => fetch.get(`${queryKey}`).then((res) => res.data);
   return useQuery({ queryKey: [queryKey], queryFn, ...options });
@@ -13,7 +13,7 @@ export const useGetPosts = (options: Omit<QueryOptions, 'queryKey' | 'queryFn'>)
 
 export const useGetPost = (
   postId: string,
-  options: Omit<QueryOptions, 'mutationKey' | 'mutationFn'>
+  options?: Omit<QueryOptions, 'mutationKey' | 'mutationFn'>
 ) => {
   const mutationKey = `${baseUrl}/post`;
   const mutationFn = async () =>
