@@ -40,7 +40,7 @@
     "zustand": "^5.0.1"
   },
   "devDependencies": {
-    "@tanstack/react-query-devtools": "^5.59.19",
+    "@tanstack/react-query-devtools": "^5.59.20",
     "@types/lodash": "^4.17.13",
     "@types/node": "22.8.7",
     "@types/react": "^18.3.12",
