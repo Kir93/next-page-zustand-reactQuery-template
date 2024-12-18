@@ -33,15 +33,15 @@
     "framer-motion": "^11.13.3",
     "next": "^15.0.3",
     "next-sitemap": "^4.2.3",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "react-use": "^17.6.0",
     "zustand": "^5.0.2"
   },
   "devDependencies": {
     "@tanstack/react-query-devtools": "^5.61.3",
     "@types/node": "22.10.1",
-    "@types/react": "^18.3.12",
+    "@types/react": "^19.0.1",
     "@types/react-dom": "^18.3.1",
     "cross-env": "^7.0.3",
     "eslint": "^9",
