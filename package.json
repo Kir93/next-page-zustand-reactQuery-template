@@ -26,7 +26,7 @@
     "@chakra-ui/react": "^2.10.3",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
-    "@tanstack/react-query": "^5.62.16",
+    "@tanstack/react-query": "^5.64.1",
     "axios": "^1.7.9",
     "dayjs": "^1.11.12",
     "fast-deep-equal": "^3.1.3",
