@@ -39,7 +39,7 @@
     "zustand": "^5.0.2"
   },
   "devDependencies": {
-    "@tanstack/react-query-devtools": "^5.62.16",
+    "@tanstack/react-query-devtools": "^5.65.0",
     "@types/node": "22.10.5",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.3",
