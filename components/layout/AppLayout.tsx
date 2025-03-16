@@ -1,12 +1,12 @@
-import React from 'react';
+import { FC, ReactElement } from 'react';
 
 import { Container } from '@chakra-ui/react';
 
 interface IProps {
-  children: React.ReactElement;
+  children: ReactElement;
 }
 
-const AppLayout: React.FC<IProps> = ({ children }) => (
+const AppLayout: FC<IProps> = ({ children }) => (
   <Container
     display="flex"
     minW={['414px', '768px', '768px', '1200px']}
@@ -14,7 +14,7 @@ const AppLayout: React.FC<IProps> = ({ children }) => (
     m="auto auto 0"
     px={['21px', '22px']}
   >
-    <main>{children}</main>
+    {children}
   </Container>
 );
 
