@@ -1,15 +1,16 @@
-import '@styles/global.css';
-
 import React from 'react';
-import Head from 'next/head';
-import { AppProps } from 'next/app';
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+
+import { ChakraProvider } from '@chakra-ui/react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { AppProps } from 'next/app';
+import Head from 'next/head';
+
+import { notoSans } from '@configs/bigContents';
+
+import theme from '@styles/theme';
 
 import AppLayout from '@components/Layout/AppLayout';
-import { ChakraProvider } from '@chakra-ui/react';
-import { notoSans } from '@configs/bigContents';
-import { theme } from '@styles/theme';
 
 const client = new QueryClient({
   defaultOptions: {
@@ -32,7 +33,7 @@ const App: React.FC<AppProps> = ({ Component, pageProps }) => (
     <Head>
       <title>Next Zustand React Query Template</title>
     </Head>
-    <ChakraProvider theme={theme}>
+    <ChakraProvider value={theme}>
       <AppLayout>
         <Component {...pageProps} />
       </AppLayout>
