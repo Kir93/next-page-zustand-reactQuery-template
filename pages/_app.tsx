@@ -1,21 +1,19 @@
-import React from 'react';
-
 import { ChakraProvider } from '@chakra-ui/react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 
-import { notoSans } from '@configs/bigContents';
-
 import theme from '@styles/theme';
 
-import AppLayout from '@components/Layout/AppLayout';
+import { notoSans } from '@config/bigContents';
+
+import AppLayout from '@components/layout/AppLayout';
 
 const client = new QueryClient({
   defaultOptions: {
     queries: {
-      refetchOnWindowFocus: false
+      staleTime: 60 * 1000
     }
   }
 });
