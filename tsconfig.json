@@ -22,7 +22,7 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@APIs": ["APIs"],
+      "@api": ["api"],
       "@utils": ["utils"],
       "@config": ["config"],
       "@styles": ["styles"],
@@ -30,7 +30,7 @@
       "@store": ["store"],
       "@atoms": ["atoms"],
       "@components": ["components"],
-      "@APIs/*": ["APIs/*"],
+      "@api/*": ["api/*"],
       "@utils/*": ["utils/*"],
       "@config/*": ["config/*"],
       "@styles/*": ["styles/*"],
