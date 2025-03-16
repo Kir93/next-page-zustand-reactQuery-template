@@ -41,6 +41,11 @@
             "position": "after"
           },
           {
+            "pattern": "@store/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
             "pattern": "@utils/**",
             "group": "internal",
             "position": "after"
