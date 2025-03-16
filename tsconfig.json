@@ -24,7 +24,7 @@
     "paths": {
       "@APIs": ["APIs"],
       "@utils": ["utils"],
-      "@configs": ["configs"],
+      "@config": ["config"],
       "@styles": ["styles"],
       "@public": ["public"],
       "@store": ["store"],
@@ -32,7 +32,7 @@
       "@components": ["components"],
       "@APIs/*": ["APIs/*"],
       "@utils/*": ["utils/*"],
-      "@configs/*": ["configs/*"],
+      "@config/*": ["config/*"],
       "@styles/*": ["styles/*"],
       "@public/*": ["public/*"],
       "@store/*": ["store/*"],

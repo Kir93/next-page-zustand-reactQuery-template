@@ -15,5 +15,5 @@ const baseURL =
 
 export const fetch: AxiosInstance = axios.create({
   baseURL,
-  withCredentials: false,
+  withCredentials: false
 });

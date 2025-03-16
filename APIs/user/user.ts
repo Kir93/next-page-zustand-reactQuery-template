@@ -1,6 +1,7 @@
 import { QueryOptions, useMutation, useQuery } from '@tanstack/react-query';
 
-import { fetch } from '@configs/axios';
+import { fetch } from '@config/axios';
+
 import { TUserAPI } from '.';
 
 export const baseUrl = '/api/user';

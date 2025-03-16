@@ -16,6 +16,6 @@ export const notoSans = Noto_Sans_KR({
     'Segoe UI',
     'Apple SD Gothic Neo',
     'Malgun Gothic',
-    'sans-serif',
-  ],
+    'sans-serif'
+  ]
 });
