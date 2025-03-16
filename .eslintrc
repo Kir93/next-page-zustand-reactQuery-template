@@ -12,9 +12,68 @@
     "node": true,
     "es6": true
   },
-  "extends": ["next/core-web-vitals", "prettier"],
   "plugins": ["import", "prettier"],
+  "extends": ["next", "prettier"],
   "rules": {
+    "import/order": [
+      "error",
+      {
+        "groups": ["builtin", "external", "internal", ["sibling", "parent", "index"], "type"],
+        "pathGroups": [
+          {
+            "pattern": "{react*,react*/**}",
+            "group": "external",
+            "position": "before"
+          },
+          {
+            "pattern": "@public/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "@styles/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "@api/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "@utils/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "@config/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "@provider/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "@atoms/**",
+            "group": "internal",
+            "position": "after"
+          },
+          {
+            "pattern": "@components/**",
+            "group": "internal",
+            "position": "after"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["type"],
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        },
+        "newlines-between": "always"
+      }
+    ],
     "jsx-a11y/label-has-associated-control": "off",
     "jsx-a11y/anchor-is-valid": "off",
     "react/prop-types": "off",
