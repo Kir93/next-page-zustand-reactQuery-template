@@ -27,7 +27,7 @@
       "@configs": ["configs"],
       "@styles": ["styles"],
       "@public": ["public"],
-      "@reducers": ["reducers"],
+      "@store": ["store"],
       "@atoms": ["atoms"],
       "@components": ["components"],
       "@APIs/*": ["APIs/*"],
@@ -35,7 +35,7 @@
       "@configs/*": ["configs/*"],
       "@styles/*": ["styles/*"],
       "@public/*": ["public/*"],
-      "@reducers/*": ["reducers/*"],
+      "@store/*": ["store/*"],
       "@atoms/*": ["atoms/*"],
       "@components/*": ["components/*"]
     },
