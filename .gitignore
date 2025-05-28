@@ -39,10 +39,5 @@ robots.txt
 *.tsbuildinfo
 next-env.d.ts
 
-# lock files
-pnpm-lock.yaml
-yarn.lock
-package-lock.json
-
 # GitHub Copilot Instructions
 copilot-instructions.md
