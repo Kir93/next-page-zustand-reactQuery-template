@@ -13,10 +13,7 @@ const theme = defineConfig({
   },
   theme: {
     tokens: {
-      fonts: {
-        heading: { value: '--font-noto-sans' },
-        body: { value: '--font-noto-sans' }
-      },
+      fonts: { heading: { value: '--font-noto-sans' }, body: { value: '--font-noto-sans' } },
       colors: {
         primary: {
           900: { value: '#1a5de4' },
@@ -63,11 +60,21 @@ const theme = defineConfig({
       colors: {
         primary: {
           solid: { value: '{colors.primary.900}' },
-          outline: { value: '{colors.primary.900}' }
+          contrast: { value: '{colors.primary.100}' },
+          fg: { value: '{colors.primary.700}' },
+          muted: { value: '{colors.primary.100}' },
+          subtle: { value: '{colors.primary.200}' },
+          emphasized: { value: '{colors.primary.300}' },
+          focusRing: { value: '{colors.primary.900}' }
         },
         secondary: {
           solid: { value: '{colors.secondary.900}' },
-          outline: { value: '{colors.secondary.900}' }
+          contrast: { value: '{colors.secondary.100}' },
+          fg: { value: '{colors.secondary.700}' },
+          muted: { value: '{colors.secondary.100}' },
+          subtle: { value: '{colors.secondary.200}' },
+          emphasized: { value: '{colors.secondary.300}' },
+          focusRing: { value: '{colors.secondary.900}' }
         },
         warning: { solid: { value: '{colors.warning}' }, outline: { value: '{colors.warning}' } },
         success: { solid: { value: '{colors.success}' }, outline: { value: '{colors.success}' } }
