@@ -42,18 +42,7 @@ const theme = defineConfig({
         warning: { value: '#e03028' },
         success: { value: '#2fb916' },
         black: { value: '#000' },
-        white: { value: '#fff' },
-        gray: {
-          900: { value: '#3b3f4a' },
-          800: { value: '#5a5e6a' },
-          700: { value: '#7f828c' },
-          600: { value: '#9da0a8' },
-          500: { value: '#bec1c7' },
-          400: { value: '#d5d8dc' },
-          300: { value: '#e4e6ea' },
-          200: { value: '#eff1f4' },
-          100: { value: '#f9fafc' }
-        }
+        white: { value: '#fff' }
       }
     },
     semanticTokens: {
