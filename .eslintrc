@@ -106,14 +106,14 @@
   },
   "overrides": [
     {
-      "files": ["./APIs/**", "./utils/**"],
+      "files": ["./api/**", "./utils/**"],
       "rules": {
         "max-lines": "off",
         "max-lines-per-function": ["error", { "max": 100 }]
       }
     },
     {
-      "files": ["./reducers/**"],
+      "files": ["./store/**"],
       "rules": {
         "max-lines": "off"
       }
