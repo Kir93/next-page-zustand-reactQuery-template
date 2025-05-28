@@ -2,7 +2,8 @@ import React from 'react';
 
 import { Box, Text } from '@chakra-ui/react';
 
-import CommonBar from '@components/common/CommonBar';
+import CommonBar from '@atoms/common/CommonBar';
+
 import { HomeButtonSection, ZustandButtonSection } from '@components/home';
 
 const Home = () => {
