@@ -84,11 +84,6 @@ export default defineConfig([
               position: 'after'
             },
             {
-              pattern: '@provider/**',
-              group: 'internal',
-              position: 'after'
-            },
-            {
               pattern: '@atoms/**',
               group: 'internal',
               position: 'after'
