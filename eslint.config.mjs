@@ -153,7 +153,7 @@ export default defineConfig([
     }
   },
   {
-    files: ['./src/api/**', './src/utils/**'],
+    files: ['./api/**', './utils/**'],
 
     rules: {
       'max-lines': 'off',
@@ -167,7 +167,7 @@ export default defineConfig([
     }
   },
   {
-    files: ['./src/store/**'],
+    files: ['./store/**'],
 
     rules: {
       'max-lines': 'off'
