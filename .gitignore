@@ -41,3 +41,6 @@ next-env.d.ts
 
 # GitHub Copilot Instructions
 copilot-instructions.md
+
+# cache files
+.eslintcache
