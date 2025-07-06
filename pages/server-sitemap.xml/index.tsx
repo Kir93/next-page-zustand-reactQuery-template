@@ -12,9 +12,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
     lastmod: new Date().toISOString()
   }));
 
-  const fields = [...newsSitemaps];
-
-  return getServerSideSitemapLegacy(ctx, fields);
+  return getServerSideSitemapLegacy(ctx, newsSitemaps);
 };
 
 export default function Site() {}
