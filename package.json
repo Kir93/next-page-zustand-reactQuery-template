@@ -26,7 +26,7 @@
     "@emotion/react": "^11.14.0",
     "@tanstack/react-query": "^5.85.5",
     "axios": "^1.9.0",
-    "dayjs": "^1.11.12",
+    "dayjs": "^1.11.18",
     "next": "latest",
     "next-sitemap": "^4.2.3",
     "react": "^19",
