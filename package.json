@@ -22,7 +22,7 @@
     "not ie <= 11"
   ],
   "dependencies": {
-    "@chakra-ui/react": "^3.26.0",
+    "@chakra-ui/react": "^3.27.0",
     "@emotion/react": "^11.14.0",
     "@tanstack/react-query": "^5.87.1",
     "axios": "^1.12.0",
