@@ -52,8 +52,8 @@ importers:
         specifier: ^5.90.2
         version: 5.90.2(@tanstack/react-query@5.90.7(react@19.2.0))(react@19.2.0)
       '@types/node':
-        specifier: 24.9.1
-        version: 24.9.1
+        specifier: 24.10.0
+        version: 24.10.0
       '@types/react':
         specifier: ^19.2.2
         version: 19.2.2
@@ -578,8 +578,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@24.9.1':
-    resolution: {integrity: sha512-QoiaXANRkSXK6p0Duvt56W208du4P9Uye9hWLWgGMDTEoKPhuenzNcC4vGUmrNkiOKTlIrBoyNQYNpSwfEZXSg==}
+  '@types/node@24.10.0':
+    resolution: {integrity: sha512-qzQZRBqkFsYyaSWXuEHc2WR9c0a0CXwiE5FWUvn7ZM+vdy1uZLfCunD38UzhuB7YN/J11ndbDBcTmOdxJo9Q7A==}
 
   '@types/parse-json@4.0.2':
     resolution: {integrity: sha512-dISoDXWWQwUquiKsyZ4Ng+HX2KsPL7LyHKHQwgGFEA3IaKac4Obd+h2a/a6waisAoepJlBcx9paWqjA8/HVjCw==}
@@ -2947,7 +2947,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@24.9.1':
+  '@types/node@24.10.0':
     dependencies:
       undici-types: 7.16.0
 
