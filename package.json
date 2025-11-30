@@ -39,7 +39,7 @@
     "@next/eslint-plugin-next": "^16.0.3",
     "@tanstack/react-query-devtools": "^5.91.0",
     "@types/node": "24.10.1",
-    "@types/react": "^19.2.2",
+    "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.3",
     "cross-env": "^10.1.0",
     "eslint": "^9.39.1",
