@@ -25,7 +25,7 @@
     "@chakra-ui/react": "^3.31.0",
     "@emotion/react": "^11.14.0",
     "@tanstack/react-query": "^5.90.19",
-    "axios": "^1.13.3",
+    "axios": "^1.13.4",
     "dayjs": "^1.11.19",
     "next": "latest",
     "next-sitemap": "^4.2.3",
